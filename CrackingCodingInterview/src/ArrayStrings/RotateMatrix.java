@@ -19,7 +19,7 @@ public class RotateMatrix
     {
         int marks[][]={{50,60,55,67,70},{62,65,70,70,81},{72,66,77,80,69}};
         System.out.println(Arrays.deepToString(rotate(marks,3)));
-        int[] multi[] = rotate(marks,3);
+        int multi[][] = rotate(marks,3);
         for(int j=0;j<3;j++)
         {
             for(int k = 0; k < 5 ; k++)

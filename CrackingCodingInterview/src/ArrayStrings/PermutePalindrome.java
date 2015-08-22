@@ -19,7 +19,7 @@ public class PermutePalindrome
 		int count=0;
 		HashMap <Character,Integer> s= new HashMap <Character,Integer> ();
 		s=count("tactcoapapa");
-		
+		System.out.println(s);
 		for(Map.Entry<Character, Integer> entry:s.entrySet())
 		{
 			

@@ -21,11 +21,16 @@ public class RemoveDupUnsortedLinkedList
         x.next.next=new Node(2);
         x.next.next.next=new Node(12);
         x.next.next.next.next=new Node(2);
+        x.next.next.next.next.next=new Node(8);
+        x.next.next.next.next.next.next=new Node(9);
         ans =removeDuplicates(x);
+        /*
         for(int i : ans)
         {
             System.out.println(i);
         }
+         */
+        System.out.println(ans);
         
     }
     
@@ -39,7 +44,7 @@ public class RemoveDupUnsortedLinkedList
         {
             if(set.contains(x.val))
             {
-                previous.next=x.next;
+                x=x.next.next;
             }
             else
             {

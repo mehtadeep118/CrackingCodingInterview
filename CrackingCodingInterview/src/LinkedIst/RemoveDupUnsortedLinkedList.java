@@ -11,5 +11,9 @@ package LinkedIst;
  */
 public class RemoveDupUnsortedLinkedList
 {
+    public static void main(String args[])
+    {
+        
+    }
     
 }

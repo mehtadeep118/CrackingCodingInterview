@@ -12,7 +12,7 @@ import java.util.Stack;
 
 /**
  *
- * @author deep
+ * @author Deep Mehta
  */
 public class BinarryToArray 
 {

@@ -60,11 +60,5 @@ public class Equation
                 
             }
         }
-        
-        
-        
-        
-        
-      
     }
 }

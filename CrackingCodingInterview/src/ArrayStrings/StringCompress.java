@@ -9,6 +9,7 @@ package ArrayStrings;
  *
  * @author deep
  */
-public class StringCompress {
+public class StringCompress 
+{
     
 }

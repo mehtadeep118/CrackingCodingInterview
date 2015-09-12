@@ -14,7 +14,7 @@ public class MedianTwoSorted
     public static void main(String[] args) 
     {
       int h[]={1,2,3,9};
-      int j[]={4,5,10,11};
+      int j[]={4,5,10,11,20};
       System.out.println(findMedianSortedArrays(h,j));
      }
     public static double findMedianSortedArrays(int A[], int B[]) {

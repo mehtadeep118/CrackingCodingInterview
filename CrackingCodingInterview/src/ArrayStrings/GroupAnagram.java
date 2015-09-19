@@ -20,12 +20,6 @@ public class GroupAnagram
 		String[] arrwords = {"art","tar","top","pot","neat","rat","tape","nate","peat","random"};
 		String[] words=sort(arrwords);
 		HashMap<String,String> map=new HashMap<String,String>();
-		
-		
-		
-		
-		
-		
 	}
 	public static String[] sort(String[] s)
 	{	int i=0;

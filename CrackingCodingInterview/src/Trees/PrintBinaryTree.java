@@ -73,5 +73,6 @@ class Tree
 		left=right=null;
 		
 	}
+        
 	
 }

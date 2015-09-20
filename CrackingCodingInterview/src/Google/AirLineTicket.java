@@ -40,14 +40,8 @@ public class AirLineTicket
         System.out.println(start);
         for(int i=0;i<tree.size();i++)
         {
-            
             System.out.print(" "+tree.get(start));
-            
             start=tree.get(start);
-            
-           
         }
-        
-        
     }
 }

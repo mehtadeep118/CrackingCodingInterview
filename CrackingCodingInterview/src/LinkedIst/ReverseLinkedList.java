@@ -26,23 +26,20 @@ public class ReverseLinkedList
         }
         System.out.println();
     }
-   public static Node Reverse(Node L)
-	{
+   public static Node Reverse(Node head)
+    {
+        if(head==null || head.next == null)
+        return head;
+ 
+    //get second node    
+    Node second = head.next;
+    //set first's next to be null
+   head.next = null;
+ 
+    Node rest = Reverse(second);
+    second.next = head;
+ 
+    return rest;
             
-        Node previousNode=null;
-        Node nextNode;
-        
-       while(L != null)
-       {
-           nextNode = L.next;
-           L.next=previousNode;
-           
-           previousNode=L;
-           L=nextNode;
-           
-           
-       }
-	return previousNode;
-        
-	}
+    }
 }

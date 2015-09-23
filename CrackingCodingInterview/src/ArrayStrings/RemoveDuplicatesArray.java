@@ -5,6 +5,7 @@
  */
 package ArrayStrings;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 /**
@@ -16,10 +17,10 @@ public class RemoveDuplicatesArray
 	public static void main(String args[])
 	{
 		int[] arrayWithDuplicates = {1,2,2,2,3,4,4,4,6,6,68,9,7,7};
-		System.out.println(removeDuplicates(arrayWithDuplicates));
+		System.out.println(Arrays.toString(removeDuplicates(arrayWithDuplicates)));
 	}
 	
-	public static String removeDuplicates(int a[])
+	public static Integer[] removeDuplicates(int a[])
 	{
 		String x;
 		HashSet <Integer> map = new HashSet<>();
@@ -30,7 +31,12 @@ public class RemoveDuplicatesArray
 		}
 		
 		Integer[] finalArray =new Integer[map.size()];
-		return map.toString();
+                int i=0;
+		for(int d:map)
+                {
+                    finalArray[i++]=d;
+                }
+            return finalArray;
 		
 	}
 }

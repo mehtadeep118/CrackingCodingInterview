@@ -12,7 +12,7 @@ import java.util.Arrays;
  *
  * @author Deep
  */
-public class ValidateBST 
+public  class ValidateBST 
 {ArrayList <Integer>  list = new ArrayList<Integer>();
     public static void main(String[] args)
     {

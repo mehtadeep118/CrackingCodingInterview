@@ -26,6 +26,7 @@ public class isoMorphic {
             char c2=t.charAt(i);  
             if(map1.containsKey(c1)){  
                 if(map1.get(c1)!=c2) return false;  
+            
             }  
             if(map2.containsKey(c2)){  
                 if(map2.get(c2)!=c1) return false;  

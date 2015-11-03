@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  *
- * @author deep
+ * @author Deep Mehta
  */
 public class PermutePalindrome 
 {

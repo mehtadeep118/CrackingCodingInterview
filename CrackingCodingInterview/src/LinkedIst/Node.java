@@ -22,6 +22,7 @@ class Node
     void appendtoTail(int d)
     {
        Node end = new Node(d);
+      
        Node n = this;
        while(n.next!=null)
        {
